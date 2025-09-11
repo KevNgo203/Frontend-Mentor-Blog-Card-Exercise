@@ -90,3 +90,16 @@ body {
   width: 2rem;
   height: 2rem;
 }
+
+@media (max-width: 375px) {
+  .container {
+    margin-inline: 1.5rem;
+    margin-block: 9.75rem;
+  }
+
+  .illustration-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+}
